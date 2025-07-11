@@ -1,0 +1,541 @@
+1752233105: mosquitto version 2.0.21 starting
+1752233105: Config loaded from /mosquitto/config/mosquitto.conf.
+1752233105: Opening ipv4 listen socket on port 1883.
+1752233105: Opening ipv6 listen socket on port 1883.
+1752233105: mosquitto version 2.0.21 running
+1752233195: New connection from 172.18.0.1:36008 on port 1883.
+1752233195: New client connected from 172.18.0.1:36008 as test-publisher (p5, c1, k60).
+1752233196: Client test-publisher disconnected.
+1752233289: New connection from 172.18.0.1:33210 on port 1883.
+1752233289: New client connected from 172.18.0.1:33210 as test-publisher (p5, c1, k60).
+1752233290: Client test-publisher disconnected.
+1752233381: New connection from 172.18.0.1:35130 on port 1883.
+1752233381: New client connected from 172.18.0.1:35130 as test-publisher (p5, c1, k60).
+1752233382: Client test-publisher disconnected.
+1752233460: New connection from 172.18.0.1:58882 on port 1883.
+1752233460: New client connected from 172.18.0.1:58882 as test-publisher (p5, c1, k60).
+1752233461: Client test-publisher disconnected.
+1752233753: New connection from 172.18.0.1:55704 on port 1883.
+1752233753: New client connected from 172.18.0.1:55704 as test-publisher (p5, c1, k60).
+1752233754: Client test-publisher disconnected.
+1752234162: New connection from 172.18.0.1:40652 on port 1883.
+1752234162: New client connected from 172.18.0.1:40652 as test-publisher (p5, c1, k60).
+1752234163: Client test-publisher disconnected.
+1752234437: New connection from 172.18.0.1:58812 on port 1883.
+1752234437: New client connected from 172.18.0.1:58812 as test-publisher (p5, c1, k60).
+1752234438: Client test-publisher disconnected.
+1752234816: New connection from 172.18.0.1:45430 on port 1883.
+1752234816: New client connected from 172.18.0.1:45430 as test-publisher (p5, c1, k60).
+1752234817: Client test-publisher disconnected.
+1752234907: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752235571: New connection from 172.18.0.1:50600 on port 1883.
+1752235571: New client connected from 172.18.0.1:50600 as test-publisher (p5, c1, k60).
+1752235572: Client test-publisher disconnected.
+1752235637: New connection from 172.18.0.1:55352 on port 1883.
+1752235637: New client connected from 172.18.0.1:55352 as test-publisher (p5, c1, k60).
+1752235638: Client test-publisher disconnected.
+1752236708: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752238509: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752239417: mosquitto version 2.0.21 terminating
+1752239417: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752239421: mosquitto version 2.0.21 starting
+1752239421: Config loaded from /mosquitto/config/mosquitto.conf.
+1752239421: Opening ipv4 listen socket on port 1883.
+1752239421: Opening ipv6 listen socket on port 1883.
+1752239421: mosquitto version 2.0.21 running
+1752239677: mosquitto version 2.0.21 terminating
+1752239677: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752241100: mosquitto version 2.0.21 starting
+1752241100: Config loaded from /mosquitto/config/mosquitto.conf.
+1752241100: Opening ipv4 listen socket on port 1883.
+1752241100: Opening ipv6 listen socket on port 1883.
+1752241100: mosquitto version 2.0.21 running
+1752241101: New connection from 172.18.0.3:33044 on port 1883.
+1752241101: New client connected from 172.18.0.3:33044 as test-publisher (p5, c1, k60).
+1752241102: Client test-publisher disconnected.
+1752241103: New connection from 172.18.0.3:43042 on port 1883.
+1752241103: New client connected from 172.18.0.3:43042 as test-publisher (p5, c1, k60).
+1752241104: Client test-publisher disconnected.
+1752241106: New connection from 172.18.0.3:43052 on port 1883.
+1752241106: New client connected from 172.18.0.3:43052 as test-publisher (p5, c1, k60).
+1752241107: Client test-publisher disconnected.
+1752241108: New connection from 172.18.0.3:43066 on port 1883.
+1752241108: New client connected from 172.18.0.3:43066 as test-publisher (p5, c1, k60).
+1752241109: Client test-publisher disconnected.
+1752241111: New connection from 172.18.0.3:43082 on port 1883.
+1752241111: New client connected from 172.18.0.3:43082 as test-publisher (p5, c1, k60).
+1752241112: Client test-publisher disconnected.
+1752241115: New connection from 172.18.0.3:51196 on port 1883.
+1752241115: New client connected from 172.18.0.3:51196 as test-publisher (p5, c1, k60).
+1752241116: Client test-publisher disconnected.
+1752241120: New connection from 172.18.0.3:51212 on port 1883.
+1752241120: New client connected from 172.18.0.3:51212 as test-publisher (p5, c1, k60).
+1752241121: Client test-publisher disconnected.
+1752241129: New connection from 172.18.0.3:41768 on port 1883.
+1752241129: New client connected from 172.18.0.3:41768 as test-publisher (p5, c1, k60).
+1752241130: Client test-publisher disconnected.
+1752241144: New connection from 172.18.0.3:40050 on port 1883.
+1752241144: New client connected from 172.18.0.3:40050 as test-publisher (p5, c1, k60).
+1752241145: Client test-publisher disconnected.
+1752241172: New connection from 172.18.0.3:56878 on port 1883.
+1752241172: New client connected from 172.18.0.3:56878 as test-publisher (p5, c1, k60).
+1752241173: Client test-publisher disconnected.
+1752241225: New connection from 172.18.0.3:35260 on port 1883.
+1752241225: New client connected from 172.18.0.3:35260 as test-publisher (p5, c1, k60).
+1752241226: Client test-publisher disconnected.
+1752241288: New connection from 172.18.0.3:46472 on port 1883.
+1752241288: New client connected from 172.18.0.3:46472 as test-publisher (p5, c1, k60).
+1752241289: Client test-publisher disconnected.
+1752241388: mosquitto version 2.0.21 starting
+1752241388: Config loaded from /mosquitto/config/mosquitto.conf.
+1752241388: Opening ipv4 listen socket on port 1883.
+1752241388: Opening ipv6 listen socket on port 1883.
+1752241388: mosquitto version 2.0.21 running
+1752241391: New connection from 172.18.0.3:54166 on port 1883.
+1752241391: New client connected from 172.18.0.3:54166 as test-publisher (p5, c1, k60).
+1752241392: Client test-publisher disconnected.
+1752241393: New connection from 172.18.0.1:55670 on port 1883.
+1752241393: New connection from 172.18.0.1:55672 on port 1883.
+1752241393: Client <unknown> disconnected due to protocol error.
+1752241394: New connection from 172.18.0.3:60242 on port 1883.
+1752241394: New client connected from 172.18.0.3:60242 as test-publisher (p5, c1, k60).
+1752241394: Client <unknown> disconnected due to protocol error.
+1752241394: New connection from 172.18.0.1:55680 on port 1883.
+1752241394: Client <unknown> disconnected due to protocol error.
+1752241394: New connection from 172.18.0.1:55686 on port 1883.
+1752241394: Client <unknown> disconnected due to protocol error.
+1752241395: Client test-publisher disconnected.
+1752241396: New connection from 172.18.0.3:60244 on port 1883.
+1752241396: New client connected from 172.18.0.3:60244 as test-publisher (p5, c1, k60).
+1752241397: Client test-publisher disconnected.
+1752241400: New connection from 172.18.0.1:55688 on port 1883.
+1752241400: New connection from 172.18.0.1:55692 on port 1883.
+1752241400: Client <unknown> disconnected due to protocol error.
+1752241400: Client <unknown> disconnected due to protocol error.
+1752241400: New connection from 172.18.0.1:55694 on port 1883.
+1752241400: Client <unknown> disconnected due to protocol error.
+1752241400: New connection from 172.18.0.3:60254 on port 1883.
+1752241400: New client connected from 172.18.0.3:60254 as test-publisher (p5, c1, k60).
+1752241402: Client test-publisher disconnected.
+1752241402: New connection from 172.18.0.1:55700 on port 1883.
+1752241402: New connection from 172.18.0.1:55714 on port 1883.
+1752241402: Client <unknown> disconnected due to protocol error.
+1752241402: Client <unknown> disconnected due to protocol error.
+1752241402: New connection from 172.18.0.1:55718 on port 1883.
+1752241402: Client <unknown> disconnected due to protocol error.
+1752241403: New connection from 172.18.0.1:47758 on port 1883.
+1752241403: Client <unknown> disconnected due to protocol error.
+1752241403: New connection from 172.18.0.1:47774 on port 1883.
+1752241404: Client <unknown> disconnected due to protocol error.
+1752241404: New connection from 172.18.0.1:47780 on port 1883.
+1752241404: Client <unknown> disconnected due to protocol error.
+1752241404: New connection from 172.18.0.1:47794 on port 1883.
+1752241404: Client <unknown> disconnected due to protocol error.
+1752241404: New connection from 172.18.0.1:47808 on port 1883.
+1752241404: New connection from 172.18.0.1:47814 on port 1883.
+1752241404: Client <unknown> disconnected due to protocol error.
+1752241404: Client <unknown> disconnected due to protocol error.
+1752241404: New connection from 172.18.0.1:47816 on port 1883.
+1752241404: Client <unknown> disconnected due to protocol error.
+1752241405: New connection from 172.18.0.1:47828 on port 1883.
+1752241405: New connection from 172.18.0.1:47834 on port 1883.
+1752241405: Client <unknown> disconnected due to protocol error.
+1752241405: Client <unknown> disconnected due to protocol error.
+1752241405: New connection from 172.18.0.3:50750 on port 1883.
+1752241405: New connection from 172.18.0.1:47850 on port 1883.
+1752241405: New client connected from 172.18.0.3:50750 as test-publisher (p5, c1, k60).
+1752241405: Client <unknown> disconnected due to protocol error.
+1752241405: New connection from 172.18.0.1:47856 on port 1883.
+1752241405: Client <unknown> disconnected due to protocol error.
+1752241405: New connection from 172.18.0.1:47862 on port 1883.
+1752241405: New connection from 172.18.0.1:47874 on port 1883.
+1752241405: Client <unknown> disconnected due to protocol error.
+1752241406: Client <unknown> disconnected due to protocol error.
+1752241406: New connection from 172.18.0.1:47876 on port 1883.
+1752241406: Client <unknown> disconnected due to protocol error.
+1752241406: New connection from 172.18.0.1:47886 on port 1883.
+1752241406: Client <unknown> disconnected due to protocol error.
+1752241406: New connection from 172.18.0.1:47902 on port 1883.
+1752241406: Client <unknown> disconnected due to protocol error.
+1752241406: New connection from 172.18.0.1:47910 on port 1883.
+1752241406: Client <unknown> disconnected due to protocol error.
+1752241406: Client test-publisher disconnected.
+1752241409: New connection from 172.18.0.3:50760 on port 1883.
+1752241409: New client connected from 172.18.0.3:50760 as test-publisher (p5, c1, k60).
+1752241410: Client test-publisher disconnected.
+1752241415: New connection from 172.18.0.3:35018 on port 1883.
+1752241415: New client connected from 172.18.0.3:35018 as test-publisher (p5, c1, k60).
+1752241416: Client test-publisher disconnected.
+1752241423: New connection from 172.18.0.3:43434 on port 1883.
+1752241423: New client connected from 172.18.0.3:43434 as test-publisher (p5, c1, k60).
+1752241424: Client test-publisher disconnected.
+1752241436: New connection from 172.18.0.1:55888 on port 1883.
+1752241436: New connection from 172.18.0.1:55904 on port 1883.
+1752241436: Client <unknown> disconnected due to protocol error.
+1752241439: New connection from 172.18.0.3:43860 on port 1883.
+1752241439: New client connected from 172.18.0.3:43860 as test-publisher (p5, c1, k60).
+1752241440: Client test-publisher disconnected.
+1752241468: New connection from 172.18.0.3:48972 on port 1883.
+1752241468: New client connected from 172.18.0.3:48972 as test-publisher (p5, c1, k60).
+1752241469: Client test-publisher disconnected.
+1752241496: Client <unknown> closed its connection.
+1752241496: New connection from 172.18.0.1:57024 on port 1883.
+1752241496: New connection from 172.18.0.1:57028 on port 1883.
+1752241496: Client <unknown> disconnected due to protocol error.
+1752241522: New connection from 172.18.0.3:46284 on port 1883.
+1752241522: New client connected from 172.18.0.3:46284 as test-publisher (p5, c1, k60).
+1752241523: Client test-publisher disconnected.
+1752241585: New connection from 172.18.0.3:41818 on port 1883.
+1752241585: New client connected from 172.18.0.3:41818 as test-publisher (p5, c1, k60).
+1752241586: Client test-publisher disconnected.
+1752241587: Client <unknown> has exceeded timeout, disconnecting.
+1752241647: New connection from 172.18.0.3:42878 on port 1883.
+1752241647: New client connected from 172.18.0.3:42878 as test-publisher (p5, c1, k60).
+1752241648: Client test-publisher disconnected.
+1752241709: New connection from 172.18.0.3:60300 on port 1883.
+1752241709: New client connected from 172.18.0.3:60300 as test-publisher (p5, c1, k60).
+1752241710: Client test-publisher disconnected.
+1752241772: New connection from 172.18.0.3:39174 on port 1883.
+1752241772: New client connected from 172.18.0.3:39174 as test-publisher (p5, c1, k60).
+1752241773: Client test-publisher disconnected.
+1752241796: New connection from 172.18.0.1:51798 on port 1883.
+1752241796: New connection from 172.18.0.1:51810 on port 1883.
+1752241796: Client <unknown> disconnected due to protocol error.
+1752241796: Client <unknown> disconnected due to protocol error.
+1752241796: New connection from 172.18.0.1:51812 on port 1883.
+1752241796: Client <unknown> disconnected due to protocol error.
+1752241834: New connection from 172.18.0.3:53618 on port 1883.
+1752241834: New client connected from 172.18.0.3:53618 as test-publisher (p5, c1, k60).
+1752241836: Client test-publisher disconnected.
+1752241897: New connection from 172.18.0.3:43866 on port 1883.
+1752241897: New client connected from 172.18.0.3:43866 as test-publisher (p5, c1, k60).
+1752241898: Client test-publisher disconnected.
+1752241959: New connection from 172.18.0.3:49820 on port 1883.
+1752241959: New client connected from 172.18.0.3:49820 as test-publisher (p5, c1, k60).
+1752241960: Client test-publisher disconnected.
+1752242022: New connection from 172.18.0.3:54982 on port 1883.
+1752242022: New client connected from 172.18.0.3:54982 as test-publisher (p5, c1, k60).
+1752242023: Client test-publisher disconnected.
+1752242084: New connection from 172.18.0.3:47594 on port 1883.
+1752242084: New client connected from 172.18.0.3:47594 as test-publisher (p5, c1, k60).
+1752242086: Client test-publisher disconnected.
+1752242147: New connection from 172.18.0.3:34662 on port 1883.
+1752242147: New client connected from 172.18.0.3:34662 as test-publisher (p5, c1, k60).
+1752242148: Client test-publisher disconnected.
+1752242209: New connection from 172.18.0.3:35180 on port 1883.
+1752242209: New client connected from 172.18.0.3:35180 as test-publisher (p5, c1, k60).
+1752242210: Client test-publisher disconnected.
+1752242271: New connection from 172.18.0.3:45816 on port 1883.
+1752242271: New client connected from 172.18.0.3:45816 as test-publisher (p5, c1, k60).
+1752242272: Client test-publisher disconnected.
+1752242333: New connection from 172.18.0.3:43918 on port 1883.
+1752242333: New client connected from 172.18.0.3:43918 as test-publisher (p5, c1, k60).
+1752242334: Client test-publisher disconnected.
+1752242396: New connection from 172.18.0.3:47620 on port 1883.
+1752242396: New client connected from 172.18.0.3:47620 as test-publisher (p5, c1, k60).
+1752242397: Client test-publisher disconnected.
+1752242418: New connection from 172.18.0.3:55128 on port 1883.
+1752242418: New client connected from 172.18.0.3:55128 as test-publisher (p5, c1, k60).
+1752242419: Client test-publisher disconnected.
+1752242421: New connection from 172.18.0.3:55144 on port 1883.
+1752242421: New client connected from 172.18.0.3:55144 as test-publisher (p5, c1, k60).
+1752242422: Client test-publisher disconnected.
+1752242423: New connection from 172.18.0.3:35240 on port 1883.
+1752242423: New client connected from 172.18.0.3:35240 as test-publisher (p5, c1, k60).
+1752242424: Client test-publisher disconnected.
+1752242426: New connection from 172.18.0.3:35244 on port 1883.
+1752242426: New client connected from 172.18.0.3:35244 as test-publisher (p5, c1, k60).
+1752242427: Client test-publisher disconnected.
+1752242430: New connection from 172.18.0.3:35250 on port 1883.
+1752242430: New client connected from 172.18.0.3:35250 as test-publisher (p5, c1, k60).
+1752242431: Client test-publisher disconnected.
+1752242434: New connection from 172.18.0.3:56456 on port 1883.
+1752242434: New client connected from 172.18.0.3:56456 as test-publisher (p5, c1, k60).
+1752242435: Client test-publisher disconnected.
+1752242439: New connection from 172.18.0.3:56460 on port 1883.
+1752242439: New client connected from 172.18.0.3:56460 as test-publisher (p5, c1, k60).
+1752242440: Client test-publisher disconnected.
+1752242448: New connection from 172.18.0.3:60738 on port 1883.
+1752242448: New client connected from 172.18.0.3:60738 as test-publisher (p5, c1, k60).
+1752242449: Client test-publisher disconnected.
+1752242464: New connection from 172.18.0.3:48418 on port 1883.
+1752242464: New client connected from 172.18.0.3:48418 as test-publisher (p5, c1, k60).
+1752242465: Client test-publisher disconnected.
+1752242492: New connection from 172.18.0.3:36532 on port 1883.
+1752242492: New client connected from 172.18.0.3:36532 as test-publisher (p5, c1, k60).
+1752242493: Client test-publisher disconnected.
+1752242546: New connection from 172.18.0.3:49852 on port 1883.
+1752242546: New client connected from 172.18.0.3:49852 as test-publisher (p5, c1, k60).
+1752242547: Client test-publisher disconnected.
+1752242608: New connection from 172.18.0.3:57720 on port 1883.
+1752242608: New client connected from 172.18.0.3:57720 as test-publisher (p5, c1, k60).
+1752242609: Client test-publisher disconnected.
+1752242671: New connection from 172.18.0.3:32910 on port 1883.
+1752242671: New client connected from 172.18.0.3:32910 as test-publisher (p5, c1, k60).
+1752242672: Client test-publisher disconnected.
+1752242733: New connection from 172.18.0.3:54056 on port 1883.
+1752242733: New client connected from 172.18.0.3:54056 as test-publisher (p5, c1, k60).
+1752242734: Client test-publisher disconnected.
+1752242796: New connection from 172.18.0.3:50794 on port 1883.
+1752242796: New client connected from 172.18.0.3:50794 as test-publisher (p5, c1, k60).
+1752242797: Client test-publisher disconnected.
+1752242860: New connection from 172.18.0.3:41960 on port 1883.
+1752242860: New client connected from 172.18.0.3:41960 as test-publisher (p5, c1, k60).
+1752242861: Client test-publisher disconnected.
+1752242922: New connection from 172.18.0.3:41384 on port 1883.
+1752242922: New client connected from 172.18.0.3:41384 as test-publisher (p5, c1, k60).
+1752242923: Client test-publisher disconnected.
+1752242985: New connection from 172.18.0.3:58456 on port 1883.
+1752242985: New client connected from 172.18.0.3:58456 as test-publisher (p5, c1, k60).
+1752242986: Client test-publisher disconnected.
+1752243047: New connection from 172.18.0.3:46158 on port 1883.
+1752243047: New client connected from 172.18.0.3:46158 as test-publisher (p5, c1, k60).
+1752243048: Client test-publisher disconnected.
+1752243230: mosquitto version 2.0.21 starting
+1752243230: Config loaded from /mosquitto/config/mosquitto.conf.
+1752243230: Opening ipv4 listen socket on port 1883.
+1752243230: Opening ipv6 listen socket on port 1883.
+1752243230: mosquitto version 2.0.21 running
+1752243231: New connection from 172.18.0.4:53008 on port 1883.
+1752243231: New client connected from 172.18.0.4:53008 as test-publisher (p5, c1, k60).
+1752243232: Client test-publisher disconnected.
+1752243233: New connection from 172.18.0.3:49406 on port 1883.
+1752243233: New client connected from 172.18.0.3:49406 as test-publisher (p5, c1, k60).
+1752243234: Client test-publisher disconnected.
+1752243236: New connection from 172.18.0.3:49418 on port 1883.
+1752243236: New client connected from 172.18.0.3:49418 as test-publisher (p5, c1, k60).
+1752243237: Client test-publisher disconnected.
+1752243239: New connection from 172.18.0.3:49422 on port 1883.
+1752243239: New client connected from 172.18.0.3:49422 as test-publisher (p5, c1, k60).
+1752243240: Client test-publisher disconnected.
+1752243242: New connection from 172.18.0.3:49424 on port 1883.
+1752243242: New client connected from 172.18.0.3:49424 as test-publisher (p5, c1, k60).
+1752243243: Client test-publisher disconnected.
+1752243246: New connection from 172.18.0.3:58538 on port 1883.
+1752243246: New client connected from 172.18.0.3:58538 as test-publisher (p5, c1, k60).
+1752243247: Client test-publisher disconnected.
+1752243252: New connection from 172.18.0.3:58544 on port 1883.
+1752243252: New client connected from 172.18.0.3:58544 as test-publisher (p5, c1, k60).
+1752243253: Client test-publisher disconnected.
+1752243260: New connection from 172.18.0.3:56006 on port 1883.
+1752243260: New client connected from 172.18.0.3:56006 as test-publisher (p5, c1, k60).
+1752243262: Client test-publisher disconnected.
+1752243276: New connection from 172.18.0.3:51340 on port 1883.
+1752243276: New client connected from 172.18.0.3:51340 as test-publisher (p5, c1, k60).
+1752243277: Client test-publisher disconnected.
+1752243304: New connection from 172.18.0.3:53622 on port 1883.
+1752243304: New client connected from 172.18.0.3:53622 as test-publisher (p5, c1, k60).
+1752243305: Client test-publisher disconnected.
+1752243358: New connection from 172.18.0.3:55790 on port 1883.
+1752243358: New client connected from 172.18.0.3:55790 as test-publisher (p5, c1, k60).
+1752243359: Client test-publisher disconnected.
+1752243420: New connection from 172.18.0.3:57908 on port 1883.
+1752243420: New client connected from 172.18.0.3:57908 as test-publisher (p5, c1, k60).
+1752243421: Client test-publisher disconnected.
+1752243446: New connection from 172.18.0.1:34084 on port 1883.
+1752243446: Client <unknown> disconnected due to protocol error.
+1752243446: New connection from 172.18.0.1:34096 on port 1883.
+1752243446: Client <unknown> disconnected due to protocol error.
+1752243446: New connection from 172.18.0.1:34112 on port 1883.
+1752243446: Client <unknown> disconnected due to protocol error.
+1752243447: New connection from 172.18.0.1:34122 on port 1883.
+1752243447: Client <unknown> disconnected due to protocol error.
+1752243447: New connection from 172.18.0.1:34138 on port 1883.
+1752243478: Client <unknown> closed its connection.
+1752243482: New connection from 172.18.0.3:57040 on port 1883.
+1752243482: New client connected from 172.18.0.3:57040 as test-publisher (p5, c1, k60).
+1752243483: Client test-publisher disconnected.
+1752243544: New connection from 172.18.0.3:58040 on port 1883.
+1752243544: New client connected from 172.18.0.3:58040 as test-publisher (p5, c1, k60).
+1752243546: Client test-publisher disconnected.
+1752243607: New connection from 172.18.0.3:33072 on port 1883.
+1752243607: New client connected from 172.18.0.3:33072 as test-publisher (p5, c1, k60).
+1752243608: Client test-publisher disconnected.
+1752243669: New connection from 172.18.0.3:52190 on port 1883.
+1752243669: New client connected from 172.18.0.3:52190 as test-publisher (p5, c1, k60).
+1752243670: Client test-publisher disconnected.
+1752243731: New connection from 172.18.0.3:44112 on port 1883.
+1752243731: New client connected from 172.18.0.3:44112 as test-publisher (p5, c1, k60).
+1752243732: Client test-publisher disconnected.
+1752243794: New connection from 172.18.0.3:47368 on port 1883.
+1752243794: New client connected from 172.18.0.3:47368 as test-publisher (p5, c1, k60).
+1752243795: Client test-publisher disconnected.
+1752243857: New connection from 172.18.0.3:51204 on port 1883.
+1752243857: New client connected from 172.18.0.3:51204 as test-publisher (p5, c1, k60).
+1752243859: Client test-publisher disconnected.
+1752243920: New connection from 172.18.0.3:59318 on port 1883.
+1752243920: New client connected from 172.18.0.3:59318 as test-publisher (p5, c1, k60).
+1752243921: Client test-publisher disconnected.
+1752243983: New connection from 172.18.0.3:52184 on port 1883.
+1752243983: New client connected from 172.18.0.3:52184 as test-publisher (p5, c1, k60).
+1752243984: Client test-publisher disconnected.
+1752244452: mosquitto version 2.0.21 terminating
+1752244452: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752244480: mosquitto version 2.0.21 starting
+1752244480: Config loaded from /mosquitto/config/mosquitto.conf.
+1752244480: Opening ipv4 listen socket on port 1883.
+1752244480: Opening ipv6 listen socket on port 1883.
+1752244480: mosquitto version 2.0.21 running
+1752244481: New connection from 172.18.0.3:54916 on port 1883.
+1752244481: New client connected from 172.18.0.3:54916 as test-publisher (p5, c1, k60).
+1752244482: Client test-publisher disconnected.
+1752244483: New connection from 172.18.0.3:53156 on port 1883.
+1752244483: New client connected from 172.18.0.3:53156 as test-publisher (p5, c1, k60).
+1752244484: Client test-publisher disconnected.
+1752244486: New connection from 172.18.0.3:53170 on port 1883.
+1752244486: New client connected from 172.18.0.3:53170 as test-publisher (p5, c1, k60).
+1752244487: Client test-publisher disconnected.
+1752244488: New connection from 172.18.0.3:53178 on port 1883.
+1752244488: New client connected from 172.18.0.3:53178 as test-publisher (p5, c1, k60).
+1752244489: Client test-publisher disconnected.
+1752244491: New connection from 172.18.0.3:53194 on port 1883.
+1752244491: New client connected from 172.18.0.3:53194 as test-publisher (p5, c1, k60).
+1752244492: Client test-publisher disconnected.
+1752244495: New connection from 172.18.0.3:47670 on port 1883.
+1752244495: New client connected from 172.18.0.3:47670 as test-publisher (p5, c1, k60).
+1752244496: Client test-publisher disconnected.
+1752244500: New connection from 172.18.0.3:47680 on port 1883.
+1752244500: New client connected from 172.18.0.3:47680 as test-publisher (p5, c1, k60).
+1752244501: Client test-publisher disconnected.
+1752244509: New connection from 172.18.0.3:55326 on port 1883.
+1752244509: New client connected from 172.18.0.3:55326 as test-publisher (p5, c1, k60).
+1752244510: Client test-publisher disconnected.
+1752244525: New connection from 172.18.0.3:58556 on port 1883.
+1752244525: New client connected from 172.18.0.3:58556 as test-publisher (p5, c1, k60).
+1752244526: Client test-publisher disconnected.
+1752244553: New connection from 172.18.0.3:54600 on port 1883.
+1752244553: New client connected from 172.18.0.3:54600 as test-publisher (p5, c1, k60).
+1752244554: Client test-publisher disconnected.
+1752244606: New connection from 172.18.0.3:52234 on port 1883.
+1752244606: New client connected from 172.18.0.3:52234 as test-publisher (p5, c1, k60).
+1752244607: Client test-publisher disconnected.
+1752244668: New connection from 172.18.0.3:56104 on port 1883.
+1752244668: New client connected from 172.18.0.3:56104 as test-publisher (p5, c1, k60).
+1752244670: Client test-publisher disconnected.
+1752244731: New connection from 172.18.0.3:49154 on port 1883.
+1752244731: New client connected from 172.18.0.3:49154 as test-publisher (p5, c1, k60).
+1752244732: Client test-publisher disconnected.
+1752244793: New connection from 172.18.0.3:46110 on port 1883.
+1752244793: New client connected from 172.18.0.3:46110 as test-publisher (p5, c1, k60).
+1752244794: Client test-publisher disconnected.
+1752244856: New connection from 172.18.0.3:55228 on port 1883.
+1752244856: New client connected from 172.18.0.3:55228 as test-publisher (p5, c1, k60).
+1752244857: Client test-publisher disconnected.
+1752244918: New connection from 172.18.0.3:39962 on port 1883.
+1752244918: New client connected from 172.18.0.3:39962 as test-publisher (p5, c1, k60).
+1752244919: Client test-publisher disconnected.
+1752244952: mosquitto version 2.0.21 terminating
+1752244952: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752244962: mosquitto version 2.0.21 starting
+1752244962: Config loaded from /mosquitto/config/mosquitto.conf.
+1752244962: Opening ipv4 listen socket on port 1883.
+1752244962: Opening ipv6 listen socket on port 1883.
+1752244962: mosquitto version 2.0.21 running
+1752244963: New connection from 172.18.0.3:37222 on port 1883.
+1752244963: New client connected from 172.18.0.3:37222 as test-publisher (p5, c1, k60).
+1752244964: Client test-publisher disconnected.
+1752244966: New connection from 172.18.0.3:37230 on port 1883.
+1752244966: New client connected from 172.18.0.3:37230 as test-publisher (p5, c1, k60).
+1752244967: Client test-publisher disconnected.
+1752244969: New connection from 172.18.0.3:37234 on port 1883.
+1752244969: New client connected from 172.18.0.3:37234 as test-publisher (p5, c1, k60).
+1752244970: Client test-publisher disconnected.
+1752244972: New connection from 172.18.0.3:42150 on port 1883.
+1752244972: New client connected from 172.18.0.3:42150 as test-publisher (p5, c1, k60).
+1752244973: Client test-publisher disconnected.
+1752244975: New connection from 172.18.0.3:42156 on port 1883.
+1752244975: New client connected from 172.18.0.3:42156 as test-publisher (p5, c1, k60).
+1752244976: Client test-publisher disconnected.
+1752244979: New connection from 172.18.0.3:42170 on port 1883.
+1752244979: New client connected from 172.18.0.3:42170 as test-publisher (p5, c1, k60).
+1752244980: Client test-publisher disconnected.
+1752244985: New connection from 172.18.0.3:49274 on port 1883.
+1752244985: New client connected from 172.18.0.3:49274 as test-publisher (p5, c1, k60).
+1752244986: Client test-publisher disconnected.
+1752244993: New connection from 172.18.0.3:55766 on port 1883.
+1752244993: New client connected from 172.18.0.3:55766 as test-publisher (p5, c1, k60).
+1752244994: Client test-publisher disconnected.
+1752245008: New connection from 172.18.0.3:59854 on port 1883.
+1752245008: New client connected from 172.18.0.3:59854 as test-publisher (p5, c1, k60).
+1752245009: Client test-publisher disconnected.
+1752245036: New connection from 172.18.0.3:50704 on port 1883.
+1752245036: New client connected from 172.18.0.3:50704 as test-publisher (p5, c1, k60).
+1752245037: Client test-publisher disconnected.
+1752245092: New connection from 172.18.0.3:52810 on port 1883.
+1752245092: New client connected from 172.18.0.3:52810 as test-publisher (p5, c1, k60).
+1752245093: Client test-publisher disconnected.
+1752245215: mosquitto version 2.0.21 starting
+1752245215: Config loaded from /mosquitto/config/mosquitto.conf.
+1752245215: Opening ipv4 listen socket on port 1883.
+1752245215: Opening ipv6 listen socket on port 1883.
+1752245215: mosquitto version 2.0.21 running
+1752245325: mosquitto version 2.0.21 starting
+1752245325: Config loaded from /mosquitto/config/mosquitto.conf.
+1752245325: Opening ipv4 listen socket on port 1883.
+1752245325: Opening ipv6 listen socket on port 1883.
+1752245325: mosquitto version 2.0.21 running
+1752245650: mosquitto version 2.0.21 terminating
+1752245650: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752245677: mosquitto version 2.0.21 starting
+1752245677: Config loaded from /mosquitto/config/mosquitto.conf.
+1752245677: Opening ipv4 listen socket on port 1883.
+1752245677: Opening ipv6 listen socket on port 1883.
+1752245677: mosquitto version 2.0.21 running
+1752246580: mosquitto version 2.0.21 starting
+1752246580: Config loaded from /mosquitto/config/mosquitto.conf.
+1752246580: Opening ipv4 listen socket on port 1883.
+1752246580: Opening ipv6 listen socket on port 1883.
+1752246580: mosquitto version 2.0.21 running
+1752246778: New connection from 172.18.0.2:34084 on port 1883.
+1752246778: New client connected from 172.18.0.2:34084 as test-publisher (p5, c1, k60).
+1752246779: Client test-publisher disconnected.
+1752248381: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752250182: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752251983: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752253784: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752255585: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752257386: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752263424: mosquitto version 2.0.21 starting
+1752263424: Config loaded from /mosquitto/config/mosquitto.conf.
+1752263424: Opening ipv4 listen socket on port 1883.
+1752263424: Opening ipv6 listen socket on port 1883.
+1752263424: mosquitto version 2.0.21 running
+1752263426: New connection from 172.18.0.4:58252 on port 1883.
+1752263426: New client connected from 172.18.0.4:58252 as test-publisher (p5, c1, k60).
+1752263427: Client test-publisher disconnected.
+1752264225: New connection from 172.18.0.1:54242 on port 1883.
+1752264225: New client connected from 172.18.0.1:54242 as auto-6BCFAF00-9387-B42D-9C9B-432B43959C86 (p2, c1, k60).
+1752264225: Client auto-6BCFAF00-9387-B42D-9C9B-432B43959C86 disconnected.
+1752264317: New connection from 172.18.0.1:35500 on port 1883.
+1752264317: New client connected from 172.18.0.1:35500 as auto-83C6A76A-3295-BC11-F23E-27AF54A06E37 (p2, c1, k60).
+1752264317: Client auto-83C6A76A-3295-BC11-F23E-27AF54A06E37 disconnected.
+1752264376: New connection from 172.18.0.1:59350 on port 1883.
+1752264376: New client connected from 172.18.0.1:59350 as auto-FB5D1FB0-DB71-4094-F1E1-65198DCC67EF (p2, c1, k60).
+1752264376: Client auto-FB5D1FB0-DB71-4094-F1E1-65198DCC67EF disconnected.
+1752264476: New connection from 172.18.0.1:59054 on port 1883.
+1752264476: New client connected from 172.18.0.1:59054 as auto-1043D2F6-2D12-4B49-FECF-B08713980188 (p2, c1, k60).
+1752264476: Client auto-1043D2F6-2D12-4B49-FECF-B08713980188 disconnected.
+1752264486: New connection from 172.18.0.1:34524 on port 1883.
+1752264486: New client connected from 172.18.0.1:34524 as auto-A3416C4F-8EDD-1602-82A9-372ADD8F675E (p2, c1, k60).
+1752264486: Client auto-A3416C4F-8EDD-1602-82A9-372ADD8F675E disconnected.
+1752265040: mosquitto version 2.0.21 terminating
+1752265040: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1752265080: mosquitto version 2.0.21 starting
+1752265080: Config loaded from /mosquitto/config/mosquitto.conf.
+1752265080: Opening ipv4 listen socket on port 1883.
+1752265080: Opening ipv6 listen socket on port 1883.
+1752265080: mosquitto version 2.0.21 running
+1752265085: New connection from 172.18.0.4:60200 on port 1883.
+1752265085: New client connected from 172.18.0.4:60200 as mqtt-client (p5, c1, k60).
+1752265093: New connection from 172.18.0.1:45448 on port 1883.
+1752265093: New client connected from 172.18.0.1:45448 as auto-BDEFFD6A-D59C-EB01-8E82-E027B9989F4A (p2, c1, k60).
+1752265093: Client auto-BDEFFD6A-D59C-EB01-8E82-E027B9989F4A disconnected.
+1752265108: New connection from 172.18.0.1:40498 on port 1883.
+1752265108: New client connected from 172.18.0.1:40498 as auto-B361CC26-3A0E-0672-0EB5-8AFAA4133D03 (p2, c1, k60).
+1752265108: Client auto-B361CC26-3A0E-0672-0EB5-8AFAA4133D03 disconnected.
+1752265160: New connection from 172.18.0.1:53268 on port 1883.
+1752265160: New client connected from 172.18.0.1:53268 as auto-331F4CC0-6B98-F6C5-BB8F-1E7448036674 (p2, c1, k60).
+1752265160: Client auto-331F4CC0-6B98-F6C5-BB8F-1E7448036674 disconnected.
+1752265352: Client mqtt-client closed its connection.
+1752265353: mosquitto version 2.0.21 terminating
+1752265353: Saving in-memory database to /mosquitto/data//mosquitto.db.

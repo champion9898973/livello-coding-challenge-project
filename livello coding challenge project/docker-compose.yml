@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  mqtt-broker:
+    image: eclipse-mosquitto
+    container_name: mqtt-broker
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+
+  mqtt-client:
+    build:
+      context: ./mqtt
+    container_name: mqtt-client
+    depends_on:
+      - mqtt-broker
+    volumes:
+      - ./mqtt_data.db:/app/mqtt_data.db
+    command: ["python", "MQTT_script.py"]
+    environment:
+      - BROKER_HOST=mqtt-broker  # ✅ Pass broker hostname explicitly
+
+  rest-api:
+    build:
+      context: ./API
+    container_name: rest-api
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mqtt_data.db:/app/mqtt_data.db
+    command: ["python", "app.py"]
