@@ -18,7 +18,6 @@ services:
     depends_on:
       - mqtt-broker
     volumes:
-      - ./mqtt:/app/mqtt
       - ./mqtt_data.db:/app/mqtt_data.db
     command: ["python", "MQTT_script.py"]
     environment:

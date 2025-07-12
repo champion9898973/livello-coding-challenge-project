@@ -154,7 +154,7 @@ Please find the dockerization files at the below mentioned paths
           
           Valid messages are processed and stored correctly: 
           Please find the results at : "~\Livello coding challange\pics of execution\Manual subscribe and publish.png"
-          and logs of invalid at here: "w\livello coding challenge project\invalid_messages.log"
+          and logs of invalid at here: "~\Livello coding challange\pics of execution\Error messages.png"
 
 //......................................................................................................................................................//
 
