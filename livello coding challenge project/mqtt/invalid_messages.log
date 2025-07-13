@@ -6,3 +6,9 @@
 2025-07-13 15:46:02,335 - Invalid message: {"device_id": "device_01", "sensor_type": "motion", "sensor_value": "high", "timestamp": "2025-07-13T21:16:02.327461+05:30"} | Reason: 'high' is not of type 'number'
 2025-07-13 15:46:32,441 - Invalid message: {"device_id": 12345, "sensor_type": "temperature", "sensor_value": 79.9, "timestamp": "2025-07-13T21:16:32.432762+05:30"} | Reason: 12345 is not of type 'string'
 2025-07-13 15:47:27,616 - Invalid message: {"device_id": "device_04", "sensor_type": "temperature", "sensor_value": 44.77} | Reason: 'timestamp' is a required property
+2025-07-13 15:49:07,710 - Invalid message: {"device_id": "device_03", "sensor_type": "light", "sensor_value": "high", "timestamp": "2025-07-13T21:19:07.701882+05:30"} | Reason: 'high' is not of type 'number'
+2025-07-13 15:49:27,773 - Invalid message: {"device_id": "device_03", "sensor_type": "pressure", "sensor_value": "high", "timestamp": "2025-07-13T21:19:27.760754+05:30"} | Reason: 'high' is not of type 'number'
+2025-07-13 15:49:52,837 - Invalid message: {"device_id": "device_02", "sensor_value": 99.81, "timestamp": "2025-07-13T21:19:52.827884+05:30"} | Reason: 'sensor_type' is a required property
+2025-07-13 15:50:37,988 - Invalid message: {"device_id": 12345, "sensor_type": "pressure", "sensor_value": 75.08, "timestamp": "2025-07-13T21:20:37.982151+05:30"} | Reason: 12345 is not of type 'string'
+2025-07-13 15:50:53,034 - Invalid message: {"device_id": "device_02", "sensor_value": 10.54, "timestamp": "2025-07-13T21:20:53.025926+05:30"} | Reason: 'sensor_type' is a required property
+2025-07-13 15:51:08,077 - Invalid message: {"sensor_type": "light", "sensor_value": 12.11, "timestamp": "2025-07-13T21:21:08.072275+05:30"} | Reason: 'device_id' is a required property
