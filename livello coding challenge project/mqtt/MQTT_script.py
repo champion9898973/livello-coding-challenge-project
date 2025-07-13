@@ -17,12 +17,27 @@ device_ids = ['device_01', 'device_02', 'device_03', 'device_04', 'device_05']
 sensor_types = ['temperature', 'humidity', 'pressure', 'light', 'motion']
 ist = timezone(timedelta(hours=5, minutes=30))
 
-# 🛠 Ensure logging always writes to the script's folder
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-LOG_FILE = os.path.join(BASE_DIR, 'invalid_messages.log')
-print(LOG_FILE)
+# ✅ Logging Setup (single file under /app)
+LOG_FILE = "/app/invalid_messages.log"
 
-# Schema definition
+logger = logging.getLogger("MQTTLogger")
+logger.setLevel(logging.ERROR)
+formatter = logging.Formatter('%(asctime)s - %(message)s')
+
+file_handler = logging.FileHandler(LOG_FILE, mode='a')
+file_handler.setFormatter(formatter)
+
+console_handler = logging.StreamHandler()
+console_handler.setFormatter(formatter)
+
+# Ensure no duplicate handlers
+if logger.hasHandlers():
+    logger.handlers.clear()
+
+logger.addHandler(file_handler)
+logger.addHandler(console_handler)
+
+# JSON Schema for validation
 schema = {
     "type": "object",
     "properties": {
@@ -34,21 +49,7 @@ schema = {
     "required": ["device_id", "sensor_type", "sensor_value", "timestamp"]
 }
 
-logger = logging.getLogger()
-logger.setLevel(logging.ERROR)
-
-formatter = logging.Formatter('%(asctime)s - %(message)s')
-
-file_handler = logging.FileHandler(LOG_FILE, mode='a')
-file_handler.setFormatter(formatter)
-
-console_handler = logging.StreamHandler()
-console_handler.setFormatter(formatter)
-
-logger.addHandler(file_handler)
-logger.addHandler(console_handler)
-
-# Generate a random message with occasional invalid data
+# Generate a random message, sometimes invalid
 def generate_message():
     message = {
         "device_id": random.choice(device_ids),
@@ -57,61 +58,70 @@ def generate_message():
         "timestamp": datetime.now(ist).isoformat()
     }
 
-    # Introduce an invalid message 20% of the time
+    # Introduce 20% chance of invalid data
     if random.random() < 0.2:
         invalid_field = random.choice(['device_id', 'sensor_type', 'sensor_value', 'timestamp', 'missing_field'])
-
         if invalid_field == 'device_id':
-            message["device_id"] = 12345  # invalid type
+            message["device_id"] = 12345
         elif invalid_field == 'sensor_type':
-            message["sensor_type"] = None  # invalid type
+            message["sensor_type"] = None
         elif invalid_field == 'sensor_value':
-            message["sensor_value"] = "high"  # invalid type
+            message["sensor_value"] = "high"
         elif invalid_field == 'timestamp':
-            message["timestamp"] = "invalid-date-format"  # invalid format
+            message["timestamp"] = "invalid-date-format"
         elif invalid_field == 'missing_field':
-            message.pop(random.choice(["device_id", "sensor_type", "sensor_value", "timestamp"]), None)  # remove a required field
+            message.pop(random.choice(["device_id", "sensor_type", "sensor_value", "timestamp"]), None)
 
     return message
 
-# Validate message schema
-def validate_message(message: dict) -> bool:
+# Validate message
+def validate_message(message: dict) -> tuple[bool, str]:
     try:
         validate(instance=message, schema=schema)
-        return True
+        return True, ""
     except ValidationError as e:
-        logging.error(f"Invalid message: {json.dumps(message)} | Reason: {e.message}")
-        for handler in logging.root.handlers:
+        reason = e.message
+        logger.error(f"Invalid message: {json.dumps(message)} | Reason: {reason}")
+        for handler in logger.handlers:
             handler.flush()
-        return False
+        return False, reason
 
 # Handle incoming MQTT messages
 def on_message(client, topic, payload, qos, properties):
     try:
         message = json.loads(payload)
-        validate(instance=message, schema=schema)
+    except json.JSONDecodeError as e:
+        logger.error(f"Invalid JSON: {payload} | Reason: {str(e)}")
+        for handler in logger.handlers:
+            handler.flush()
+        print("❌ Invalid JSON received. Check logs.\n")
+        return
+
+    is_valid, reason = validate_message(message)
+    
+    if is_valid:
         print(f"✅ Received valid message: {message}")
         store_valid_message(message)
         print("📦 Message stored in the database.\n")
-    except (json.JSONDecodeError, ValidationError) as e:
-        logging.error(f"Invalid message: {payload} | Reason: {str(e)}")
-        for handler in logging.root.handlers:
-            handler.flush()
-        print("❌ Invalid message received. Check logs.\n")
+    else:
+        print("❌ Invalid message received (not stored). Reason:", reason)
 
-# Loop to publish random messages
+# Publish loop
 async def publish_random_messages(client):
     while True:
         msg = generate_message()
-        if validate_message(msg):
+        is_valid, reason = validate_message(msg)
+
+        if is_valid:
             client.publish(TOPIC, json.dumps(msg), qos=1)
             print(f"📤 Published message:\n{json.dumps(msg, indent=2)}")
             print("✅ Message published successfully.\n")
         else:
-            print("⚠️ Skipped publishing invalid message.\n")
+            print("⚠️ Skipped publishing invalid message. Logged the reason.\n")
+
         await asyncio.sleep(PUBLISH_INTERVAL)
 
-# Main function
+# Main entry
 async def main():
     init_db()
     print("✅ Database initialized.\n")

@@ -1,0 +1,8 @@
+ 2025-07-13 15:43:21,789 - Invalid message: {"device_id": "device_04", "sensor_type": null, "sensor_value": 99.32, "timestamp": "2025-07-13T21:13:21.778472+05:30"} | Reason: None is not of type 'string'
+2025-07-13 15:44:06,944 - Invalid message: {"device_id": "device_01", "sensor_type": null, "sensor_value": 15.33, "timestamp": "2025-07-13T21:14:06.931603+05:30"} | Reason: None is not of type 'string'
+2025-07-13 15:44:42,064 - Invalid message: {"device_id": "device_02", "sensor_type": null, "sensor_value": 23.14, "timestamp": "2025-07-13T21:14:42.054300+05:30"} | Reason: None is not of type 'string'
+2025-07-13 15:44:47,079 - Invalid message: {"device_id": "device_04", "sensor_type": null, "sensor_value": 64.01, "timestamp": "2025-07-13T21:14:47.069534+05:30"} | Reason: None is not of type 'string'
+2025-07-13 15:45:47,294 - Invalid message: {"device_id": "device_02", "sensor_type": null, "sensor_value": 83.29, "timestamp": "2025-07-13T21:15:47.285116+05:30"} | Reason: None is not of type 'string'
+2025-07-13 15:46:02,335 - Invalid message: {"device_id": "device_01", "sensor_type": "motion", "sensor_value": "high", "timestamp": "2025-07-13T21:16:02.327461+05:30"} | Reason: 'high' is not of type 'number'
+2025-07-13 15:46:32,441 - Invalid message: {"device_id": 12345, "sensor_type": "temperature", "sensor_value": 79.9, "timestamp": "2025-07-13T21:16:32.432762+05:30"} | Reason: 12345 is not of type 'string'
+2025-07-13 15:47:27,616 - Invalid message: {"device_id": "device_04", "sensor_type": "temperature", "sensor_value": 44.77} | Reason: 'timestamp' is a required property

@@ -1,6 +1,8 @@
 version: '3.8'
 
 services:
+
+  # 🟢 MQTT Broker (Mosquitto)
   mqtt-broker:
     image: eclipse-mosquitto
     container_name: mqtt-broker
@@ -11,6 +13,7 @@ services:
       - ./mosquitto/data:/mosquitto/data
       - ./mosquitto/log:/mosquitto/log
 
+
   mqtt-client:
     build:
       context: ./mqtt
@@ -18,11 +21,12 @@ services:
     depends_on:
       - mqtt-broker
     volumes:
+      - ./mqtt/invalid_messages.log:/app/invalid_messages.log
       - ./mqtt_data.db:/app/mqtt_data.db
     command: ["python", "MQTT_script.py"]
     environment:
-      - BROKER_HOST=mqtt-broker  # ✅ Pass broker hostname explicitly
-
+      - BROKER_HOST=mqtt-broker
+  # 🔵 REST API Service
   rest-api:
     build:
       context: ./API
@@ -30,5 +34,5 @@ services:
     ports:
       - "5000:5000"
     volumes:
-      - ./mqtt_data.db:/app/mqtt_data.db
+      - ./mqtt_data.db:/app/mqtt_data.db      # ✅ REST API uses same DB as MQTT client
     command: ["python", "app.py"]
